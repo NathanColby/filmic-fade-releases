@@ -1,36 +1,47 @@
-# Filmic Fade Releases
+# Filmic Fade
 
-This repository hosts public installer downloads for Filmic Fade, a
-photochemical-style fade transition for Adobe Premiere Pro 2026.
+Filmic Fade is a photochemical-style dissolve transition for Adobe Premiere Pro
+2026. It replaces a flat digital opacity fade with density-driven behavior:
+highlights hold, shadows fall away, color stays dye-like, and the tail eases
+into black or back into the image.
 
-The source repository is private. Public downloads are attached to GitHub
-Releases here.
+This public repository hosts signed installer downloads. The source repository
+is private.
+
+## Download
+
+Use the latest GitHub release.
+
+Recommended for most users:
+
+- `FilmicFade-0.14.0.pkg`
+
+Fallback zip:
+
+- `FilmicFade-0.14.0-macOS.zip`
 
 ## Install
 
 1. Fully quit Adobe Premiere Pro.
-2. Open the latest release.
-3. Download `FilmicFade-0.5.6.pkg`.
-4. Double-click the package and follow the macOS installer.
-5. Reopen Premiere Pro.
-6. Find Filmic Fade under `Effects > Video Transitions > Dissolve`.
+2. Download `FilmicFade-0.14.0.pkg` from Releases.
+3. Double-click the package and follow the macOS installer.
+4. Reopen Premiere Pro.
+5. Find Filmic Fade under `Effects > Video Transitions > Dissolve`.
 
-If macOS blocks the unsigned package, right-click it and choose `Open`.
+The package is signed with Developer ID, notarized by Apple, and stapled for
+Gatekeeper.
 
 ## Zip Fallback
 
-If the package installer does not work:
-
-1. Download `FilmicFade-0.5.6-macOS.zip`.
-2. Unzip it.
-3. Keep `FilmicFade.plugin` beside `Install Filmic Fade.command`.
-4. Double-click `Install Filmic Fade.command`.
-5. Enter your macOS password when prompted.
-6. Fully quit and relaunch Premiere Pro.
+1. Unzip `FilmicFade-0.14.0-macOS.zip`.
+2. Keep `FilmicFade.plugin` beside `Install Filmic Fade.command`.
+3. Double-click `Install Filmic Fade.command`.
+4. Enter your macOS password when prompted.
+5. Fully quit and relaunch Premiere Pro.
 
 ## Uninstall
 
-Run `Uninstall Filmic Fade.command` from the zip download, or remove:
+Run `Uninstall Filmic Fade.command` from the fallback zip, or remove:
 
 ```text
 /Library/Application Support/Adobe/Common/Plug-ins/7.0/MediaCore/FilmicFade.plugin
@@ -39,3 +50,8 @@ Run `Uninstall Filmic Fade.command` from the zip download, or remove:
 ## Checksums
 
 Each release includes `SHA256SUMS.txt`.
+
+## Notes
+
+- macOS only for the packaged build.
+- Premiere Pro 2026 is the supported target.
