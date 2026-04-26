@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.16.15
+
+- Adds Alpha Aware controls for text, logo, and transparent graphic fades.
+- Adds Auto Alpha detection so opaque clips stay on the normal dissolve path
+  while transparent media receives alpha-aware rendering.
+- Adds a native/browser Alpha Graph for Soft Fill, Hard Edge, Edge Softness,
+  Skew, Bevel, and Noise tuning.
+- Adds alpha-only preset recalls under the Alpha Graph: Auto Default, Soft Fill,
+  Hard Edge, and Skewed Bevel, with Custom as the manual-edit state.
+- Adds Drift Follows Skew for Split Drift looks when alpha skew should steer the
+  drift-zone mapping.
+
 ## 0.14.0
 
 - Refreshes the built-in preset palette around eight looks, including Silver

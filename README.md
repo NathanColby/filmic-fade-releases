@@ -14,16 +14,16 @@ Use the latest GitHub release.
 
 Recommended for most users:
 
-- `FilmicFade-0.14.0.pkg`
+- `FilmicFade-0.16.15.pkg`
 
 Fallback zip:
 
-- `FilmicFade-0.14.0-macOS.zip`
+- `FilmicFade-0.16.15-macOS.zip`
 
 ## Install
 
 1. Fully quit Adobe Premiere Pro.
-2. Download `FilmicFade-0.14.0.pkg` from Releases.
+2. Download `FilmicFade-0.16.15.pkg` from Releases.
 3. Double-click the package and follow the macOS installer.
 4. Reopen Premiere Pro.
 5. Find Filmic Fade under `Effects > Video Transitions > Dissolve`.
@@ -33,7 +33,7 @@ Gatekeeper.
 
 ## Zip Fallback
 
-1. Unzip `FilmicFade-0.14.0-macOS.zip`.
+1. Unzip `FilmicFade-0.16.15-macOS.zip`.
 2. Keep `FilmicFade.plugin` beside `Install Filmic Fade.command`.
 3. Double-click `Install Filmic Fade.command`.
 4. Enter your macOS password when prompted.
